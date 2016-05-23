@@ -1,0 +1,107 @@
+body {
+  background-color: #191d1f;
+}
+
+.top-nav-containers {
+  width: 100%;
+  display: flex;
+}
+
+.logo-nav {
+  color: white;
+  width: 25%;
+  text-align: center;
+  float: left;
+  background-color: #1a93cb;
+}
+
+
+.first-nav {
+  color: white;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.first-nav li {
+  padding: 0px 8px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+#cart-items-nav {
+  color: white;
+  float: right;
+  text-align: center;
+  width: 25%;
+  background-color: #1a93cb;
+}
+
+#search-bar {
+  float: right;
+}
+
+.featured-products {
+  color: gray;
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.main-nav-bar {
+  width: 100%;
+}
+
+.main-nav-list {
+  color: white;
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav-list li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+}
+
+.top-sellers {
+  width: 25%;
+  background-color: #101314;
+}
+
+#top-seller-image {
+  padding: 10px;
+  width: 94%;
+}
+
+.blue-font {
+  color: #1a93cb;
+}
+
+.slider {
+  width: 75%;
+}
+
+#number-one-seller {
+  color: white;
+}
+
+.top-seller-price {
+  float: right;
+  padding-right: 10px;
+}
+
+.top-sellers p {
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
