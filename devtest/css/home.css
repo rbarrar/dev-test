@@ -105,3 +105,39 @@ body {
   margin-top: 10px;
   margin-bottom: 0;
 }
+
+.big-addto-cart {
+  background-color: #070909;
+  text-align: right;
+  /*height: 70px;*/
+  padding-top: 40px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small-top-seller {
+  width: 40%;
+  margin-left: 10px;
+}
+
+.other-top-sellers {
+  color: white;
+}
+
+.other-top-sellers-font {
+  float: right;
+  margin-right: 10px;
+}
+
+.small-addto-cart {
+  background-color: #070909;
+  text-align: right;
+  /*height: 70px;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
