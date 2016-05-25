@@ -7,12 +7,27 @@ body {
   display: flex;
 }
 
-.logo-nav {
+.logo-container {
   color: white;
   width: 25%;
   text-align: center;
   float: left;
+}
+
+.logo {
   background-color: #1a93cb;
+  transform: rotate(45deg);
+  height: 120px;
+  width: 120px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.logo-text {
+  transform: rotate(-45deg);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 
@@ -76,6 +91,7 @@ body {
 .top-sellers-holder {
   width: 25%;
   background-color: #101314;
+  margin-bottom: 30px;
 }
 
 #top-seller-image {
@@ -174,13 +190,109 @@ body {
 .other-main-content {
   width: 75%;
   display: flex;
+  margin-left: 10px;
 }
 
 .dropdown-menu {
   background-color: #070909;
   width: 100%;
+  margin-top: -10px;
 }
 
 .slider {
   width: 100%;
+}
+
+.slider-image{
+  width: 100%;
+}
+
+.arrow-head {
+  color: #7b8284;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+.content-photos {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.content-photo-image {
+  /*width: 20%;*/
+  border: 15px solid #101314;
+}
+
+.content-photo-text {
+  color: white;
+  font-size: 14px;
+}
+
+.content-rating {
+  background-color: #191d1f;
+  text-align: right;
+}
+
+.content-price {
+  float: right;
+}
+
+.content-addto-cart {
+  background-color: #070909;
+  padding-top: 20px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.addto-cart-text {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.first-content-photos-container {
+  width: 100%;
+  display: flex;
+}
+
+.second-content-photos-container {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #080a0a;
+  height: 500px;
+  display: flex;
+}
+
+.footer-links-one {
+  width: 15%;
+  color: white;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.footer-links-two {
+  width: 45%;
+  margin-top: 30px;
+  color: white;
+}
+
+.promo-container {
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+
+.form-background {
+  background-color: #070909;
+  border: 1px solid #2f3537;1
+}
+
+.email-adder-button {
+  background-color: #00a7e6;
+  border: none;
 }
