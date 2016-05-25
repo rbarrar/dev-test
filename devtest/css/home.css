@@ -73,7 +73,7 @@ body {
   display: flex;
 }
 
-.top-sellers {
+.top-sellers-holder {
   width: 25%;
   background-color: #101314;
 }
@@ -87,10 +87,6 @@ body {
   color: #1a93cb;
 }
 
-.slider {
-  width: 75%;
-}
-
 #number-one-seller {
   color: white;
 }
@@ -100,7 +96,11 @@ body {
   padding-right: 10px;
 }
 
-.top-sellers p {
+.top-sellers-pics {
+  padding-bottom: 15px;
+}
+
+.top-sellers-pics p {
   margin-left: 25px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -109,7 +109,6 @@ body {
 .big-addto-cart {
   background-color: #070909;
   text-align: right;
-  /*height: 70px;*/
   padding-top: 40px;
   padding-bottom: 15px;
   padding-right: 15px;
@@ -134,10 +133,54 @@ body {
 .small-addto-cart {
   background-color: #070909;
   text-align: right;
-  /*height: 70px;*/
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 15px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.top-sellers-list {
+  background-color: #101314;
+  width: 92%;
+  float: left;
+}
+
+.top-seller-list-items {
+  list-style-type: none;
+  color: white;
+  display: block;
+  background-color: #070909;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  margin-left: -25px;
+}
+
+.list-header {
+  margin-left: 15px;
+  width: 100%;
+}
+
+.top-seller-ul {
+  width: 100%;
+}
+
+.breaker {
+  background-color: #191d1f;
+}
+
+.other-main-content {
+  width: 75%;
+  display: flex;
+}
+
+.dropdown-menu {
+  background-color: #070909;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
 }
