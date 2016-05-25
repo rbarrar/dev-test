@@ -54,6 +54,12 @@ body {
 
 #search-bar {
   float: right;
+  margin-right: 30px;
+}
+
+#search-form {
+  height: 20px;
+  width: 180px;
 }
 
 .featured-products {
@@ -264,7 +270,7 @@ body {
 .footer-container {
   width: 100%;
   background-color: #080a0a;
-  height: 500px;
+  height: 300px;
   display: flex;
 }
 
@@ -289,7 +295,17 @@ body {
 
 .form-background {
   background-color: #070909;
-  border: 1px solid #2f3537;1
+  border: 1px solid #2f3537;
+}
+
+#email-form {
+  width: 200px;
+  height: 30px;
+}
+
+.email-button-size {
+  height: 30px;
+  width: 30px;
 }
 
 .email-adder-button {
