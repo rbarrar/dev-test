@@ -89,6 +89,10 @@ body {
   padding: 0px 8px;
 }
 
+.main-nav-list li:hover {
+  background-color: #00a7e6;
+}
+
 .main-content {
   width: 100%;
   display: flex;
@@ -138,6 +142,11 @@ body {
   margin-right: 10px;
 }
 
+.big-addto-cart:hover {
+  background-color: #00a7e6;
+  color: white;
+}
+
 .small-top-seller {
   width: 40%;
   margin-left: 10px;
@@ -162,6 +171,17 @@ body {
   margin-right: 10px;
 }
 
+.small-addto-cart:hover {
+  background-color: #00a7e6;
+  color: white;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .top-sellers-list {
   background-color: #101314;
   width: 92%;
@@ -178,6 +198,10 @@ body {
   margin-bottom: 5px;
   width: 100%;
   margin-left: -25px;
+}
+
+.top-seller-list-items:hover {
+  background-color: #00a7e6;
 }
 
 .list-header {
@@ -251,6 +275,11 @@ body {
   padding-bottom: 10px;
 }
 
+.content-addto-cart:hover {
+  background-color: #00a7e6;
+  color: white;
+}
+
 .addto-cart-text {
   margin-right: 15px;
   margin-bottom: 10px;
@@ -274,17 +303,21 @@ body {
   display: flex;
 }
 
-.footer-links-one {
+#footer-links-one {
   width: 15%;
   color: white;
   margin-left: 60px;
   margin-top: 30px;
 }
 
-.footer-links-two {
+#footer-links-two {
   width: 45%;
   margin-top: 30px;
   color: white;
+}
+
+.footer-links:hover {
+  color: #0281b2;
 }
 
 .promo-container {
