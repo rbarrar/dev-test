@@ -2,6 +2,16 @@ body {
   background-color: #191d1f;
 }
 
+.dropdown {
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+
+.expand {
+  display: block !important;
+}
+
 .top-nav-containers {
   width: 100%;
   display: flex;
@@ -91,6 +101,11 @@ body {
 
 .main-nav-list li:hover {
   background-color: #00a7e6;
+}
+
+.drop-button:hover + .dropdown{
+  background-color: #00a7e6;
+  display: block;
 }
 
 .main-content {
