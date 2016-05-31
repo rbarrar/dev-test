@@ -107,12 +107,13 @@ body {
   background-color: #00a7e6;
   display: block;
   width: 8%;
-  float: right;
   margin-left: 239px;
 }
 
-.dropdown-content {
+.dropdown-content:hover {
   text-align: left;
+  color: black;
+  background-color: white;
 }
 
 .main-content {
