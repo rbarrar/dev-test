@@ -4,6 +4,7 @@
   <link rel="stylesheet" type="text/css" href="css/home.css">
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
   <title></title>
 </head>
 <body>
@@ -131,8 +132,12 @@
       </div>
     </div>
     <div class="other-main-content">
-      <div class="slider">
-        <img class="slider-image" src="demo/images/nemo.jpg">
+      <div class="container">
+        <div id="slider" class="nivoSlider">
+          <img src="demo/images/nemo.jpg">
+          <img src="demo/images/toystory.jpg">
+          <img src="demo/images/up.jpg">
+        </div>
         <div class="dropdown-menu">
           <h1><p class="arrow-head">&#8964;</p></h1>
         </div>
@@ -247,6 +252,6 @@
         </form>
       </div>
     </div>
-    <script src="/js/dropdown.js"></script>
+    <script src="./js/jquery.nivo.slider.js"></script>
   </body>
   </html>

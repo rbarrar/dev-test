@@ -103,15 +103,12 @@ body {
   background-color: #00a7e6;
 }
 
-/*div ul li:hover + .dropdown {
-	display:inherit;
-}*/
-
 .drop-button:hover + .dropdown {
   background-color: #00a7e6;
   display: list-item;
   width: 8%;
   margin-left: 239px;
+  list-style-type: none;
 }
 
 .dropdown-content:hover {
@@ -256,12 +253,12 @@ body {
   margin-top: -10px;
 }
 
-.slider {
-  width: 100%;
+.container {
+  width: 100% !important;
 }
 
-.slider-image{
-  width: 100%;
+#slider {
+  width: 100% !important;
 }
 
 .arrow-head {
