@@ -2,12 +2,6 @@ body {
   background-color: #191d1f;
 }
 
-.dropdown {
-  position: absolute;
-  display: none;
-  width: inherit;
-}
-
 .expand {
   display: block !important;
 }
@@ -103,12 +97,23 @@ body {
   background-color: #00a7e6;
 }
 
-.drop-button:hover + .dropdown {
+.drop-button {
+  position: relative;
+}
+
+.drop-button:hover > .dropdown {
   background-color: #00a7e6;
-  display: list-item;
-  width: 8%;
-  margin-left: 239px;
+  display: inherit;
+  width: 100%;
+  padding: 0px;
   list-style-type: none;
+  left: 0px;
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+  z-index: 9999999;
 }
 
 .dropdown-content:hover {

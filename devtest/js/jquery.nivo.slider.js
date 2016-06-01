@@ -7,10 +7,6 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
- $(window).load(function() {
-     $('#slider').nivoSlider();
- });
-
 (function($) {
     var NivoSlider = function(element, options){
         // Defaults are below
@@ -650,7 +646,7 @@
         controlNav: true,
         controlNavThumbs: false,
         pauseOnHover: true,
-        manualAdvance: false,
+        manualAdvance: true,
         prevText: 'Prev',
         nextText: 'Next',
         randomStart: false,
@@ -665,6 +661,6 @@
 
 })(jQuery);
 
-$(window).load(function() {
-    $('#slider').nivoSlider();
-});
+// $(window).load(function() {
+//     $('#slider').nivoSlider();
+// });
