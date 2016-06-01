@@ -103,9 +103,13 @@ body {
   background-color: #00a7e6;
 }
 
-.drop-button:hover + .dropdown{
+/*div ul li:hover + .dropdown {
+	display:inherit;
+}*/
+
+.drop-button:hover + .dropdown {
   background-color: #00a7e6;
-  display: block;
+  display: list-item;
   width: 8%;
   margin-left: 239px;
 }
