@@ -290,11 +290,12 @@ body {
 
 .content-rating {
   background-color: #191d1f;
-  text-align: right;
+  text-align: left;
 }
 
 .content-price {
-  float: right;
+  /*float: right;*/
+  margin-left: 30px;
 }
 
 .content-addto-cart {
@@ -302,6 +303,7 @@ body {
   padding-top: 20px;
   text-align: right;
   padding-bottom: 10px;
+  margin-right: 30px;
 }
 
 .content-addto-cart:hover {
