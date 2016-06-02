@@ -177,7 +177,7 @@ body {
 }
 
 .small-top-seller {
-  width: 25%;
+  width: 30%;
   margin-left: 10px;
 }
 
@@ -186,9 +186,9 @@ body {
 }
 
 .other-top-sellers-font {
-  /*float: right;*/
+  float: right;
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .other-top-sellers-font p {
@@ -198,8 +198,8 @@ body {
 .small-addto-cart {
   background-color: #070909;
   text-align: right;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 2px;
   padding-right: 15px;
   margin-left: 10px;
   margin-right: 10px;
