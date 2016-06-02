@@ -355,6 +355,11 @@ body {
   text-align: center;
 }
 
+.promo-text {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
+}
+
 .form-background {
   background-color: #070909;
   border: 1px solid #2f3537;

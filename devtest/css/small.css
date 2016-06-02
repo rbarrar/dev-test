@@ -392,7 +392,8 @@ body {
 }
 
 .promo-text {
-  font-size: 1em;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 40px;
 }
 
 /*Modal CSS*/
