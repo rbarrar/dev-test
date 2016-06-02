@@ -79,8 +79,18 @@
               </p>
             </div>
             <br>
-            <div class="big-addto-cart blue-font">
+            <div class="big-addto-cart blue-font" id="myBtn">
               <p>Add to Cart</p>
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">x</span>
+                <p>Your selection has been added to the cart!</p>
+              </div>
+
             </div>
             <br>
             <div class="other-top-sellers">
@@ -261,5 +271,6 @@
           $('#slider').nivoSlider({controlNav: false, controlNavThumbs: false, prevText: '', nextText: ''});
         });
         </script>
+          <script src="js/modal.js" type="text/javascript" charset="utf-8"></script>
       </body>
       </html>
